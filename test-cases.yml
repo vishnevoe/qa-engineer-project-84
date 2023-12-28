@@ -34,9 +34,9 @@
   prerequisites: |
     Открыта страница магазина, выбран язык English
   test-data: |
-    Ключевое слово = smartphones, товары = IPhone9, IPhoneX, Samsung Universe 9, OPPOF19, HuaweiP30
+    Ключевое слово = Oppo, товары = Oppo
   steps:
-    - В поле поиска вбиваем "smartphones"
+    - В поле поиска вбиваем "Oppo"
   expected-result: |
     На экране отображаются товары, подходящие по ключевому слову
 
@@ -47,9 +47,9 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Ключевое слово = смартфоны, товары = IPhone9, IPhoneX, Samsung Universe 9, OPPOF19, HuaweiP30
+    Ключевое слово = Oppo, товары = Oppo
   steps:
-    - В поле поиска вбиваем "смартфоны"
+    - В поле поиска вбиваем "Oppo"
   expected-result: |
     На экране отображаются товары, подходящие по ключевому слову
 
