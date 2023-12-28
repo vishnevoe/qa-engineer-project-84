@@ -1,0 +1,64 @@
+---
+- summary: |
+    Не работает поиск по ключевому слову в английской версии сайта
+  environment: |
+    Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
+    Microsoft Windows Version 22H2 (Build OS 19045.3803)
+  steps-to-reproduce: |
+    1. В поле "Search" ввести ключевое слово
+  expected-result: |
+    На странице отобразятся товары, которые можно описать с помощью введенного ключевого слова
+  actual-result: |
+    На странице отображается надпись: "Nothing found!"
+
+- summary: |
+    Не работает поиск по ключевому слову в русской версии сайта
+  environment: |
+    Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
+    Microsoft Windows Version 22H2 (Build OS 19045.3803)
+  steps-to-reproduce: |
+    1. В поле "Поиск" ввести ключевое слово
+  expected-result: |
+    На странице отобразятся товары, которые можно описать с помощью введенного ключевого слова
+  actual-result: |
+    На странице отображается надпись: "Ничего не найдено!"
+
+- summary: |
+    Нет возможности просматривать информацию о товарах на русском языке в русской версии сайта
+  environment: |
+    Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
+    Microsoft Windows Version 22H2 (Build OS 19045.3803)
+  steps-to-reproduce: |
+    1. Открыть русскую версию сайта
+    2. Изучить главную страницу сайта
+  expected-result: |
+    На странице отображаются товары, их название и описание на русском языке
+  actual-result: |
+    На странице отображаются товары, их название и описание на английском языке
+
+- summary: |
+    Нет возможности просмотреть информацию в карточке товара в русской версии сайта на русском языке
+  environment: |
+    Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
+    Microsoft Windows Version 22H2 (Build OS 19045.3803)
+  steps-to-reproduce: |
+    1. Открыть русскую версию сайта
+    2. Выбрать товар
+    3. Перейти в его карточку
+  expected-result: |
+    В карточке отображается название товара, описание товара на русском языке, цена и рейтинг
+  actual-result: |
+    В карточке отображается название и описание товара на английском языке
+
+- summary: |
+    Нет возможности заказать товар из корзины
+  environment: |
+    Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
+    Microsoft Windows Version 22H2 (Build OS 19045.3803)
+  steps-to-reproduce: |
+    1. Добавить товар в корзину
+    2. Нажать на кнопку "Checkout"
+  expected-result: |
+    В консоли разработчика отображается запрос на сервер со статусом 200 (успешно)
+  actual-result: |
+    В консоли разработчика отображается запрос на сервер со статусом 500 (failed)
