@@ -1,23 +1,23 @@
 ---
 test-cases:
-    - summary: |
+  - summary: |
       Проверка отображения мобильной версии сайта
     status: pass
 
-    - summary: |
+  - summary: |
       Проверка возможности фильтровать товары по наличию
     status: pass
 
-    - summary: |
+  - summary: |
       Проверка возможности оформить заказ из корзины
     status: fail
 
-    - summary: |
+  - summary: |
       Проверка возможности закрыть всплывающее окно с подтверждением оформления заказа с помощью кнопки "Х"
     status: fail
 
 bugreports:
-    - summary: |
+  - summary: |
       Ошибка 500 при оформлении заказа
     environment: |
       Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
@@ -29,8 +29,8 @@ bugreports:
       В консоли разработчика отображается запрос на сервер со статусом 200 (успешно)
     actual-result: |
       В консоли разработчика отображается запрос на сервер со статусом 500 (failed)
-    
-    - summary: |
+
+  - summary: |
       Не закрывается всплывающее окно с подтверждением заказа при нажатии на кнопку "X"
     environment: |
       Google Chrome Version 120.0.6099.130 (Official Build) (64-bit)
