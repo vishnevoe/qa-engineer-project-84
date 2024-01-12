@@ -6,7 +6,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Кликаем на выпадающий список "Категория"
     - Выбираем категорию, например, "smartphones"
@@ -20,7 +20,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - В поле поиска вбиваем ключевое слово, например,"Oppo"
   expected-result: |
@@ -33,7 +33,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Выбираем товар
     - Нажимаем на карточку товара, переходим в нее
@@ -47,7 +47,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Выбираем любой товар, например, смартфон HuaweiP30
     - Добавить выбранный товар в корзину, нажав на кнопку "В корзину"
@@ -62,7 +62,7 @@
   prerequisites: |
     Открыта карточка товара
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Выбираем любой товар, например, смартфон HuaweiP30
     - Добавить выбранный товар в корзину, нажав на кнопку "В корзину"
@@ -77,7 +77,7 @@
   prerequisites: |
     Открыта страница магазина, выбран русский язык
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Язык"
     - Нажимаем на "English"
@@ -91,7 +91,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Открываем DevTools
     - Переходим в Toggle device toolbar
@@ -106,7 +106,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - В поле Price в первом (левом) поле вводим нижнюю границу цены, например, 100 с помощью клавиатуры
     - В поле Price во втором (правом) поле вводим верхнюю границу цены, например, 200 с помощью клавиатуры
@@ -120,7 +120,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - В поле Brand, например, Apple, ставим галочку напротив нужного бренда
   expected-result: |
@@ -133,7 +133,7 @@
   prerequisites: |
     Установлена галочка напротив фильтра "В наличии"
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Снимаем галочку напротив фильтра "В наличии"
   expected-result: |
@@ -146,7 +146,7 @@
   prerequisites: |
     Выбраны товары определенного бренда (напротив наименования бренда стоит галочка)
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - В поле Brand снимаем галочку там, где она стоит
   expected-result: |
@@ -159,7 +159,7 @@
   prerequisites: |
     empty
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Корзина" в правом верхнем углу
   expected-result: |
@@ -172,7 +172,7 @@
   prerequisites: |
     Открыта корзина, в ней есть несколько товаров
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Очистить корзину"
   expected-result: |
@@ -185,7 +185,7 @@
   prerequisites: |
     Открыта корзина
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Продолжить покупки"
   expected-result: |
@@ -198,7 +198,7 @@
   prerequisites: |
     Открыта корзина, в ней есть товар
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Удалить" напротив товара
   expected-result: |
@@ -211,7 +211,7 @@
   prerequisites: |
     Открыта корзина, в ней есть товар
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Открываем DevTools
     - Открываем в DevTools вкладку Network
@@ -226,7 +226,7 @@
   prerequisites: |
     Открыта корзина, в ней есть товар
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Оформить заказ"
   expected-result: |
@@ -239,7 +239,7 @@
   prerequisites: |
     Открыта корзина, в ней есть товар
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Оформить заказ"
     - В появившемся всплывающем окне нажимаем кнопку "Закрыть"
@@ -253,7 +253,7 @@
   prerequisites: |
     Открыта корзина, в ней есть товар
   test-data: |
-    Страница интернет-магазина (https://hexlet-products-store.vercel.app/)
+    empty
   steps:
     - Нажимаем на кнопку "Оформить заказ"
     - В появившемся всплывающем окне нажимаем кнопку "X"
